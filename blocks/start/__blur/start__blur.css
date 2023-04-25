@@ -1,0 +1,9 @@
+.start__blur {
+    position: relative;
+    margin: 30px 60px;
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    height: 730px;
+    overflow: hidden;
+}
