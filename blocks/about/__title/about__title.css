@@ -1,0 +1,11 @@
+.about__title {
+    font-family: 'Journalism', 'Arial', sans-serif;
+    padding-top: 60px;
+    padding-left: 60px;
+    font-size: 88px;
+    font-weight: 400;
+    margin: 0;
+    width: 600px;
+    z-index: 1;
+    position: relative;
+}
