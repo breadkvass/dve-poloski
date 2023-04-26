@@ -11,6 +11,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/button_start-section.css);
 @import url(../blocks/button/button_about-section.css);
+@import url(../blocks/button/button_questions-section.css);
 
 @import url(../blocks/start/start.css);
 @import url(../blocks/start/__blur/start__blur.css);
