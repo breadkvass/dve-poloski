@@ -1,0 +1,6 @@
+.doctors__container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    max-width: 1250px;
+}

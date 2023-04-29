@@ -1,0 +1,5 @@
+.doctors__photo {
+    max-width: 450px;
+    aspect-ratio: 1 / 1;
+    border-radius: 40px;
+}

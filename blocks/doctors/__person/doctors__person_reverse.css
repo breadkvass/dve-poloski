@@ -1,0 +1,7 @@
+.doctors__person_reverse {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}

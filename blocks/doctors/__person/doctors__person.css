@@ -1,0 +1,6 @@
+.doctors__person {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    margin: 0 auto;
+}

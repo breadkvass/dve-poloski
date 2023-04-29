@@ -1,9 +1,6 @@
 .button {
     background: radial-gradient(52.76% 163.64% at 50% 50%, #91D776 0%, #54923F 100%);
-    padding: 18px;
     font-family: 'Montserrat', 'Arial', sans-serif;
-    font-size: 21px;
-    letter-spacing: 0.295em;
     color: white;
     text-decoration: none;
     font-weight: 600;
