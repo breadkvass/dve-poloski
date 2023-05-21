@@ -8,3 +8,9 @@
     margin: 0 auto;
     justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+    .questions__list {
+        gap: 25px;
+    }
+}

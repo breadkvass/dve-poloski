@@ -9,3 +9,11 @@
     background-image: url(../../images/reviews-background.png);
     background-size: cover;
 }
+
+@media screen and (max-width: 767px) {
+    .reviews {
+        gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

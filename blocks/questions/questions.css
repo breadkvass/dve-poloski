@@ -8,3 +8,11 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+@media screen and (max-width: 767px) {
+    .questions {
+        gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

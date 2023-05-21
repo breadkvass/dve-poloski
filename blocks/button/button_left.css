@@ -3,13 +3,16 @@
     letter-spacing: 0.295em;
     margin: 0;
     padding: 18px;
+    width: 360px;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
     .button_left {
-        font-size: 17px;
+        font-size: 15px;
         padding: 8px 11px;
         margin: 0 auto;
         text-align: center;
+        width: 244px;
     }
 }
