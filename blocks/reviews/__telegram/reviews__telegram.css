@@ -1,12 +1,18 @@
 .reviews__telegram {
     display: flex;
-    flex-direction: column;
-    /* justify-content: flex-start; */
-    align-content: center;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    max-height: 1100px;
-    margin: 0 auto;
+    flex-direction: row;
     column-gap: 40px;
     row-gap: 20px;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .reviews__telegram {
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
 }
