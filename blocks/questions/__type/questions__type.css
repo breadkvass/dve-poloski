@@ -5,3 +5,10 @@
     margin: 0;
     width: 150px;
 }
+
+@media screen and (max-width: 767px) {
+    .questions__type {
+        font-size: 12px;
+        width: 108px;
+    }
+}

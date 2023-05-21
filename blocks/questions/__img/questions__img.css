@@ -2,3 +2,10 @@
     width: 80px;
     height: 80px;
 }
+
+@media screen and (max-width: 767px) {
+    .questions__img {
+        width: 47px;
+        height: 47px;
+    }
+}

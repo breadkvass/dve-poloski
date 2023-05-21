@@ -4,3 +4,9 @@
     gap: 125px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+    .doctors__person {
+        flex-direction: column;
+    }
+}
