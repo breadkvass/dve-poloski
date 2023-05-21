@@ -7,4 +7,36 @@
     max-width: 1250px;
     height: 700px;
     overflow: hidden;
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 1279px) {
+    .start__blur {
+        min-width: 910px;
+        height: 625px;
+        padding-left: 50px;
+        margin: 30px 60px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .start__blur {
+        min-width: 685px;
+        height: 470px;
+        padding-left: 40px;
+        margin: 30px 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .start__blur {
+        min-width: 272px;
+        height: 470px;
+        padding: 0;
+        margin: 20px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }

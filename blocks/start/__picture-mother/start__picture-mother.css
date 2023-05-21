@@ -3,4 +3,27 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+    width: 642px;
+    height: 574px;
+}
+
+@media screen and (max-width: 1279px) {
+    .start__picture-mother {
+        width: 514px;
+        height: 467px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .start__picture-mother {
+        width: 385px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .start__picture-mother {
+        width: 274px;
+        height: 244px;
+    }
 }

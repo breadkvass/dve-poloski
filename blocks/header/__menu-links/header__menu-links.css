@@ -8,3 +8,22 @@
     padding: 0;
     padding-top: 30px;
 }
+
+@media screen and (max-width: 1279px) {
+    .header__menu-links {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__menu-links {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu-links {
+        padding-top: 20px;
+        gap: 30px;
+    }
+}

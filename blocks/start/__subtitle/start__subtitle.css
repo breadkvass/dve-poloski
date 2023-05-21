@@ -1,8 +1,32 @@
 .start__subtitle {
     margin: 0;
     padding-top: 60px;
-    padding-left: 60px;
     font-size: 26px;
     font-weight: 700;
-    width: 480px;
+    min-width: 450px;
+}
+
+@media screen and (max-width: 1279px) {
+    .start__subtitle {
+        padding-top: 45px;
+        font-size: 20px;
+        min-width: 340px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .start__subtitle {
+        padding-top: 40px;
+        font-size: 20px;
+        min-width: 270px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .start__subtitle {
+        padding-top: 0;
+        font-size: 15px;
+        min-width: 250px;
+        text-align: center;
+    }
 }

@@ -4,5 +4,22 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
-    line-height: 21px;
+}
+
+@media screen and (max-width: 1279px) {
+    .header__menu-link {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__menu-link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu-link {
+        font-size: 10px;
+    }
 }

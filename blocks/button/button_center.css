@@ -2,4 +2,11 @@
     font-size: 29px;
     letter-spacing: 0.295em;
     padding: 25px;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .button_center {
+        font-size: 15px;
+    }
 }

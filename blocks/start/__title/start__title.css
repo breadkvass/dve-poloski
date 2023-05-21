@@ -1,8 +1,31 @@
 .start__title {
     font-family: 'Journalism', 'Arial', sans-serif;
-    padding-top: 90px;
-    padding-left: 60px;
+    padding-top: 60px;
     font-size: 107px;
     font-weight: 400;
     margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+    .start__title {
+        padding-top: 70px;
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .start__title {
+        padding-top: 50px;
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .start__title {
+        padding-top: 30px;
+        font-size: 45px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
