@@ -5,3 +5,11 @@
     font-weight: 400;
     max-width: 450px;
 }
+
+@media screen and (max-width: 767px) {
+    .doctors__paragraph {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 22px;
+    }
+}

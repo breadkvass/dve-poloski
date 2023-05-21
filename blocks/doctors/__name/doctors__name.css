@@ -5,3 +5,9 @@
     color: #5A9844;
     text-shadow: 0 0 20px #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+    .doctors__name {
+        font-size: 25px;
+    }
+}

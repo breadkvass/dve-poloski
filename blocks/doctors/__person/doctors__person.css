@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 767px) {
     .doctors__person {
-        flex-direction: column;
+        gap: 15px;
+        align-items: center;
     }
 }
