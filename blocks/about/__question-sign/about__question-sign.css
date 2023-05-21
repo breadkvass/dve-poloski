@@ -4,3 +4,12 @@
     left: 503px;
     z-index: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .about__question-sign {
+        top: 10px;
+        left: 280px;
+        width: 60px;
+        height: 103px;
+    }
+}
