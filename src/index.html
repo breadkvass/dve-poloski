@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="index.css">
   <title>Клуб "В помощь маме"</title>
 </head>
 <body class="page">
@@ -25,14 +24,14 @@
 				<p class="start__description">Это то, что поможет вам быть спокойной и уверенной мамой. Понимать, что вы делаете все правильно для своего ребенка.
 				</p>
 				<a class="button button_left" href="https://t.me/Doc_alimova">Подать заявку</a>
-				<img class="start__picture-mother" src="images/mother-start.png" alt="Изображение мамы с малышом">
+				<img class="start__picture-mother" src="<%=require('./images/mother-start.png')%>" alt="Изображение мамы с малышом">
 			</div>
 		</section>
 		<section class="about" id="about-club">
 			<div class="about__container">
 				<div class="about__title-container">
 					<h2 class="about__title">Что такое клуб<br>«В помощь маме»</h2>
-					<img class="about__question-sign" src="images/question-sign.png" alt="Знак вопроса">
+					<img class="about__question-sign" src="<%=require('./images/question-sign.png')%>" alt="Знак вопроса">
 				</div>
 				
 					<p class="about__description">Это закрытый чат в телеграме, где собрались четыре суперважных специалиста – гинеколог
@@ -48,43 +47,43 @@
 			<h2 class="title">Какие вопросы позволит решить чат?</h2>
 			<ul class="questions__list">
 				<li class="questions__container">
-					<img class="questions__img" src="images/broccoli.svg" alt="Питание кормящей мамы" style="transform:rotate(30deg);">
+					<img class="questions__img" src="<%=require('./images/broccoli.svg')%>" alt="Питание кормящей мамы" style="transform:rotate(30deg);">
 					<p class="questions__type">Питание<br>кормящей мамы</p>
 				</li>
 				<li class="questions__container">
-					<img class="questions__img" src="images/milk-feeding.svg" alt="Грудное вскармливание">
+					<img class="questions__img" src="<%=require('./images/milk-feeding.svg')%>" alt="Грудное вскармливание">
 					<p class="questions__type">Грудное вскармливание</p>
 				</li>
 				<li class="questions__container">
-					<img class="questions__img" src="images/bottle.svg" alt="Прикорм" style="transform:rotate(30deg);">
+					<img class="questions__img" src="<%=require('./images/bottle.svg')%>" alt="Прикорм" style="transform:rotate(30deg);">
 					<p class="questions__type">Введение прикорма</p>
 				</li>
 				<li class="questions__container">
-					<img class="questions__img" src="images/vactination.svg" alt="Вакцинация">
+					<img class="questions__img" src="<%=require('./images/vactination.svg')%>" alt="Вакцинация">
 					<p class="questions__type">Вакцинация</p>
 				</li>
 				<li class="questions__container">
-					<img class="questions__img" src="images/pepper.svg" alt="Срочная помощь" style="transform:rotate(20deg);">
+					<img class="questions__img" src="<%=require('./images/pepper.svg')%>" alt="Срочная помощь" style="transform:rotate(20deg);">
 					<p class="questions__type">Помощь при острых состояниях</p>
 				</li>
 				<li class="questions__container">
-					<img class="questions__img" src="images/lamp.svg" alt="Второе мнение" style="transform:rotate(20deg);">
+					<img class="questions__img" src="<%=require('./images/lamp.svg')%>" alt="Второе мнение" style="transform:rotate(20deg);">
 					<p class="questions__type">Второе мнение<br>по назначениям педиатра</p>
 				</li>
 				<li class="questions__container">
-					<img class="questions__img" src="images/pills.svg" alt="Препараты">
+					<img class="questions__img" src="<%=require('./images/pills.svg')%>" alt="Препараты">
 					<p class="questions__type">Какие препараты точно не надо покупать</p>
 				</li>
 				<li class="questions__container">
-					<img class="questions__img" src="images/condom.svg" alt="Контрацепция">
+					<img class="questions__img" src="<%=require('./images/condom.svg')%>" alt="Контрацепция">
 					<p class="questions__type">Контрацепция после родов</p>
 				</li>
 				<li class="questions__container">
-					<img class="questions__img" src="images/heart.svg" alt="Здоровье мамы">
+					<img class="questions__img" src="<%=require('./images/heart.svg')%>" alt="Здоровье мамы">
 					<p class="questions__type">Здоровье мамы</p>
 				</li>				
 				<li class="questions__container">
-					<img class="questions__img" src="images/depression.svg" alt="Депрессия">
+					<img class="questions__img" src="<%=require('./images/depression.svg')%>" alt="Депрессия">
 					<p class="questions__type">Послеродовая<br>депрессия – как<br>не пропустить</p>
 				</li>
 			</ul>
@@ -95,12 +94,12 @@
 			<div class="doctors__container">
 
 				<div class="doctors__person doctors__person_classic">
-					<img class="doctors__photo" src="images/zubareva-tatiana.png" alt="Фото Татьяны Зубаревой">
+					<img class="doctors__photo" src="<%=require('./images/zubareva-tatiana.png')%>" alt="Фото Татьяны Зубаревой">
 					<div class="doctors__description">
 						
 							<h4 class="doctors__name">Татьяна Зубарева</h4>
 							<a  class="doctors__link" href="https://instagram.com/pro_baby63">
-								<img class="doctors__insta" src="images/instagram.svg" alt="Инстаграм врача">
+								<img class="doctors__insta" src="<%=require('./images/instagram.svg')%>" alt="Инстаграм врача">
 								<h5 class="doctors__nickname">@pro_baby63</h5>
 							</a>
 							<p class="doctors__paragraph">Врач-неонатолог высшей категории, консультант по грудному вскармливанию. 
@@ -113,12 +112,12 @@
 				</div>
 
 				<div class="doctors__person doctors__person_reverse">
-					<img class="doctors__photo" src="images/sofya-tveritinova.png" alt="Фото Софьи Тверитиновой">
+					<img class="doctors__photo" src="<%=require('./images/sofya-tveritinova.png')%>" alt="Фото Софьи Тверитиновой">
 					<div class="doctors__description">
 						
 							<h4 class="doctors__name">Софья Тверитинова</h4>
 							<a class="doctors__link" href="https://instagram.com/doc_tveritinova">
-								<img class="doctors__insta" src="images/instagram.svg" alt="Инстаграм врача">
+								<img class="doctors__insta" src="<%=require('./images/instagram.svg')%>" alt="Инстаграм врача">
 								<h5 class="doctors__nickname">@doc_tveritinova</h5>
 							</a>
 							<p class="doctors__paragraph">Врач-педиатр, консультант по грудному вскармливанию. В своей работе придерживается 
@@ -130,12 +129,12 @@
 				</div>
 
 				<div class="doctors__person doctors__person_classic">
-					<img class="doctors__photo" src="images/irina-oblogina.png" alt="Фото Ирины Облогиной">
+					<img class="doctors__photo" src="<%=require('./images/irina-oblogina.png')%>" alt="Фото Ирины Облогиной">
 					<div class="doctors__description">
 						
 							<h4 class="doctors__name">Ирина Облогина</h4>
 							<a class="doctors__link" href="https://instagram.com/dr.oblogina">
-								<img class="doctors__insta" src="images/instagram.svg" alt="Инстаграм врача">
+								<img class="doctors__insta" src="<%=require('./images/instagram.svg')%>" alt="Инстаграм врача">
 								<h5 class="doctors__nickname">@dr.oblogina</h5>
 							</a>
 							<p class="doctors__paragraph">Врач-педиатр, консультант по детскому сну. Практикует доказательную медицину 
@@ -149,12 +148,12 @@
 				</div>
 
 				<div class="doctors__person doctors__person_reverse">
-					<img class="doctors__photo" src="images/oksana-alimova.png" alt="Фото Оксаны Алимовой">
+					<img class="doctors__photo" src="<%=require('./images/oksana-alimova.png')%>" alt="Фото Оксаны Алимовой">
 					<div class="doctors__description">
 						
 							<h4 class="doctors__name">Оксана Алимова</h4>
 							<a class="doctors__link" href="https://instagram.com/doc.alimova">
-								<img class="doctors__insta" src="images/instagram.svg" alt="Инстаграм врача">
+								<img class="doctors__insta" src="<%=require('./images/instagram.svg')%>" alt="Инстаграм врача">
 								<h5 class="doctors__nickname">@doc.alimova</h5>
 							</a>
 							<p class="doctors__paragraph">Врач акушер-гинеколог со стажем работы более 20 лет. Умеет понятно объяснять 
@@ -170,12 +169,12 @@
 		<section class="reviews" id="reviews">
 			<h2 class="title">Отзывы</h2>
 			<div class="reviews__telegram">
-				<img class="reviews__screen" src="images/reviews-1.png" alt="Отзыв из телеграм-канала">
-				<img class="reviews__screen" src="images/reviews-2.png" alt="Отзыв из телеграм-канала">
-				<img class="reviews__screen" src="images/reviews-3.png" alt="Отзыв из телеграм-канала">
-				<img class="reviews__screen" src="images/reviews-4.png" alt="Отзыв из телеграм-канала">
-				<img class="reviews__screen" src="images/reviews-5.png" alt="Отзыв из телеграм-канала">
-				<img class="reviews__screen" src="images/reviews-6.png" alt="Отзыв из телеграм-канала">
+				<img class="reviews__screen" src="<%=require('./images/reviews-1.png')%>" alt="Отзыв из телеграм-канала">
+				<img class="reviews__screen" src="<%=require('./images/reviews-2.png')%>" alt="Отзыв из телеграм-канала">
+				<img class="reviews__screen" src="<%=require('./images/reviews-3.png')%>" alt="Отзыв из телеграм-канала">
+				<img class="reviews__screen" src="<%=require('./images/reviews-4.png')%>" alt="Отзыв из телеграм-канала">
+				<img class="reviews__screen" src="<%=require('./images/reviews-5.png')%>" alt="Отзыв из телеграм-канала">
+				<img class="reviews__screen" src="<%=require('./images/reviews-6.png')%>" alt="Отзыв из телеграм-канала">
 			</div>
 		</section>
 	</main>
