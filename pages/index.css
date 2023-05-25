@@ -40,7 +40,6 @@
 @import url(../blocks/doctors/__container/doctors__container.css);
 @import url(../blocks/doctors/__description/doctors__description.css);
 @import url(../blocks/doctors/__insta/doctors__insta.css);
-@import url(../blocks/doctors/__name-container/doctors__name-container.css);
 @import url(../blocks/doctors/__name/doctors__name.css);
 @import url(../blocks/doctors/__link/doctors__link.css);
 @import url(../blocks/doctors/__paragraph/doctors__paragraph.css);
@@ -48,6 +47,7 @@
 @import url(../blocks/doctors/__person/doctors__person_classic.css);
 @import url(../blocks/doctors/__person/doctors__person_reverse.css);
 @import url(../blocks/doctors/__photo/doctors__photo.css);
+@import url(../blocks/doctors/__nickname/doctors__nickname.css);
 
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__screen/reviews__screen.css);
