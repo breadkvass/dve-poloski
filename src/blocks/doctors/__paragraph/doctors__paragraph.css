@@ -1,0 +1,25 @@
+.doctors__paragraph {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1279px) {
+    .doctors__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .doctors__paragraph {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .doctors__paragraph {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+

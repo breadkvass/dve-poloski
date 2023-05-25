@@ -1,0 +1,34 @@
+.doctors__person {
+    display: flex;
+    align-items: flex-start;
+    gap: 125px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+    .doctors__person {
+        gap: 80px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .doctors__person {
+        gap: 40px;
+        align-items: center;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .doctors__person {
+        gap: 15px;
+        align-items: center;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}

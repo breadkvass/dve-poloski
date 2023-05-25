@@ -1,0 +1,29 @@
+.about__question-sign {
+    position: absolute;
+    top: -5px;
+    left: 503px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .about__question-sign {
+        top: 35px;
+        left: 390px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .about__question-sign {
+        top: 12px;
+        left: 265px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about__question-sign {
+        top: 10px;
+        left: 240px;
+    }
+}

@@ -1,0 +1,13 @@
+.doctors__container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 90vw;
+    max-width: 1250px;
+}
+
+@media screen and (max-width: 767px) {
+    .doctors__container {
+        gap: 40px;
+    }
+}

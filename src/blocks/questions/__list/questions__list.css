@@ -1,0 +1,29 @@
+.questions__list {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    width: 90vw;
+    max-width: 1250px;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .questions__list {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 12023px) {
+    .questions__list {
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .questions__list {
+        gap: 25px;
+    }
+}
